@@ -5,3 +5,76 @@
 }
 
 @import "boje";
+
+
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+
+    .nav {
+        border-right: 1px solid #fff;
+        width: 20%;
+
+        .prva {
+            display: flex;
+            justify-content: space-between;
+
+            .gemi {
+                display: flex;
+                align-items: center;
+
+                h1 {
+                    color: $olive;
+                }
+            }
+
+            img {
+                height: 50px;
+            }
+        }
+
+        .druga {
+            display: flex;
+            flex-direction: column;
+
+            @include inbox
+        }
+
+        .treca {
+            padding-top: 20px;
+            h1 {
+                color: $olive;
+            }
+
+            @include inbox
+        }
+    }
+    .main {
+        width: 80%;
+        padding: 20px;
+        .open {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        input {
+            width: 30%;
+            box-shadow: -11px -10px 3px -3px rgba(0,0,0,0.75);
+        }
+        .korisnik {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .marko {
+                display: flex;
+                flex-direction: column;
+                color: $olive;
+            }
+            img {
+                height: 30px;
+                width: 30px;
+            }
+        }
+        }
+    }
+}

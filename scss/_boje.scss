@@ -9,3 +9,14 @@ $bg-blue: #016393;
 @mixin naslov {
     font-family: 'Roboto', sans-serif;
 }
+
+@mixin inbox {
+    .inbox {
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: 1px solid $olive;
+        img {
+            height: 50px;
+        }
+    }
+}

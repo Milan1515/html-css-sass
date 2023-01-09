@@ -5,4 +5,80 @@
   box-sizing: border-box;
 }
 
+.all {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all .nav {
+  border-right: 1px solid #fff;
+  width: 20%;
+}
+.all .nav .prva {
+  display: flex;
+  justify-content: space-between;
+}
+.all .nav .prva .gemi {
+  display: flex;
+  align-items: center;
+}
+.all .nav .prva .gemi h1 {
+  color: #679186;
+}
+.all .nav .prva img {
+  height: 50px;
+}
+.all .nav .druga {
+  display: flex;
+  flex-direction: column;
+}
+.all .nav .druga .inbox {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #679186;
+}
+.all .nav .druga .inbox img {
+  height: 50px;
+}
+.all .nav .treca {
+  padding-top: 20px;
+}
+.all .nav .treca h1 {
+  color: #679186;
+}
+.all .nav .treca .inbox {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #679186;
+}
+.all .nav .treca .inbox img {
+  height: 50px;
+}
+.all .main {
+  width: 80%;
+  padding: 20px;
+}
+.all .main .open {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.all .main .open input {
+  width: 30%;
+  box-shadow: -11px -10px 3px -3px rgba(0, 0, 0, 0.75);
+}
+.all .main .open .korisnik {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.all .main .open .korisnik .marko {
+  display: flex;
+  flex-direction: column;
+  color: #679186;
+}
+.all .main .open .korisnik img {
+  height: 30px;
+  width: 30px;
+}
+
 /*# sourceMappingURL=parcijalni.css.map */
