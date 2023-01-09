@@ -1,0 +1,11 @@
+$rose: #ffb4ac;
+$olive: #679186;
+$blue: #264e70;
+$beige: #ffebd3;
+$bg-blue: #016393;
+// # pozadina email poruke$
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@mixin naslov {
+    font-family: 'Roboto', sans-serif;
+}
