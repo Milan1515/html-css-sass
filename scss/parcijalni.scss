@@ -11,7 +11,8 @@
 .all {
     display: flex;
     flex-wrap: wrap;
-
+    background-image: url(file:///home/frontenddevelopment/Desktop/parcijalni/parcijalni/Parcijalni/scss/images/background.png);
+    background-size: cover;
     .nav {
         border-right: 1px solid #fff;
         width: 20%;
@@ -43,6 +44,7 @@
 
         .treca {
             padding-top: 20px;
+
             h1 {
                 color: $olive;
             }
@@ -50,31 +52,87 @@
             @include inbox
         }
     }
+
     .main {
         width: 80%;
         padding: 20px;
+
         .open {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-        input {
-            width: 30%;
-            box-shadow: -11px -10px 3px -3px rgba(0,0,0,0.75);
+
+            input {
+                width: 30%;
+                box-shadow: -11px -10px 3px -3px rgba(0, 0, 0, 0.75);
+            }
+
+            .korisnik {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .marko {
+                    display: flex;
+                    flex-direction: column;
+                    color: $olive;
+                }
+
+                img {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
         }
-        .korisnik {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            .marko {
+
+        .velika {
+            border: 1px solid $bg-blue;
+            border-radius: 12px;
+            
+            .ikona {
+                display: flex;
+                border-bottom: 1px solid $bg-blue;
+              
+                img {
+                    padding-right: 10px;
+                    height: 30px;
+                    width: 30px;
+                }
+                h2 {
+                    color: $olive;
+                }
+            }
+            .okvir {
                 display: flex;
                 flex-direction: column;
-                color: $olive;
+                transition: 10s transform ease ;
+                .content:hover {
+                    transform: scale(0.7);
+                }
+                .content {
+                    margin: 10px;
+                    background-color: $blue;
+                    border-radius: 12px;
+                    width: 99%;
+                    display: flex;
+                    padding: 10px;
+                    justify-content: space-between;
+                    .sve {
+                        display: flex;
+                        justify-content: space-between;
+                        .greska {
+                            display: flex;
+                    .text {
+                        display: flex;
+                        justify-content: space-between;
+                        border-radius: 50%;
+                        background-color: $bg-blue ;
+                    p {
+                        color: $beige;
+                    }
+                    }}}
+                }
             }
-            img {
-                height: 30px;
-                width: 30px;
-            }
-        }
         }
     }
 }

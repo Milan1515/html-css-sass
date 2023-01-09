@@ -8,6 +8,8 @@
 .all {
   display: flex;
   flex-wrap: wrap;
+  background-image: url(file:///home/frontenddevelopment/Desktop/parcijalni/parcijalni/Parcijalni/scss/images/background.png);
+  background-size: cover;
 }
 .all .nav {
   border-right: 1px solid #fff;
@@ -79,6 +81,55 @@
 .all .main .open .korisnik img {
   height: 30px;
   width: 30px;
+}
+.all .main .velika {
+  border: 1px solid #016393;
+  border-radius: 12px;
+}
+.all .main .velika .ikona {
+  display: flex;
+  border-bottom: 1px solid #016393;
+}
+.all .main .velika .ikona img {
+  padding-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+.all .main .velika .ikona h2 {
+  color: #679186;
+}
+.all .main .velika .okvir {
+  display: flex;
+  flex-direction: column;
+  transition: 10s transform ease;
+}
+.all .main .velika .okvir .content:hover {
+  transform: scale(0.7);
+}
+.all .main .velika .okvir .content {
+  margin: 10px;
+  background-color: #264e70;
+  border-radius: 12px;
+  width: 99%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.all .main .velika .okvir .content .sve {
+  display: flex;
+  justify-content: space-between;
+}
+.all .main .velika .okvir .content .sve .greska {
+  display: flex;
+}
+.all .main .velika .okvir .content .sve .greska .text {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+  background-color: #016393;
+}
+.all .main .velika .okvir .content .sve .greska .text p {
+  color: #ffebd3;
 }
 
 /*# sourceMappingURL=parcijalni.css.map */
