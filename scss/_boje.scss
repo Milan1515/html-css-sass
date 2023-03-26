@@ -14,9 +14,17 @@ $bg-blue: #016393;
     .inbox {
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         border-bottom: 1px solid $olive;
+        padding: 10px;
+        width: 90%;
+       
         img {
-            height: 50px;
+            height: 30px;
+            padding-right: 10px;
+        }
+        h2 {
+            color: $bg-blue;
         }
     }
 }

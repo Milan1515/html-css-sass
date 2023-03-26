@@ -12,13 +12,11 @@
   background-image: url("images/background.jpg");
   background-size: cover;
 }
-
 .all .nav {
   border-right: 1px solid #ffb4ac;
   width: 20%;
   padding: 10px;
 }
-
 @media screen and (max-width: 900px) {
   .all .nav {
     display: none;
@@ -29,28 +27,23 @@
   display: flex;
   justify-content: space-between;
 }
-
 .all .nav .prva .gemi {
   display: flex;
   align-items: center;
 }
-
 .all .nav .prva .gemi h1 {
   color: #679186;
   font-size: x-large;
 }
-
 .all .nav .prva img {
   height: 50px;
 }
-
 .all .nav .druga {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
   justify-content: center;
 }
-
 .all .nav .druga .inbox {
   display: flex;
   justify-content: flex-start;
@@ -59,20 +52,16 @@
   padding: 10px;
   width: 90%;
 }
-
 .all .nav .druga .inbox img {
   height: 30px;
   padding-right: 10px;
 }
-
 .all .nav .druga .inbox h2 {
   color: #016393;
 }
-
 .all .nav .treca {
   padding-top: 20px;
 }
-
 @media screen and (max-width: 1200px) {
   .all .nav .treca {
     display: none;
@@ -81,7 +70,6 @@
 .all .nav .treca h1 {
   color: #679186;
 }
-
 .all .nav .treca .inbox {
   display: flex;
   justify-content: flex-start;
@@ -90,21 +78,17 @@
   padding: 10px;
   width: 90%;
 }
-
 .all .nav .treca .inbox img {
   height: 30px;
   padding-right: 10px;
 }
-
 .all .nav .treca .inbox h2 {
   color: #016393;
 }
-
 .all .main {
   width: 80%;
   padding: 20px;
 }
-
 @media screen and (max-width: 900px) {
   .all .main {
     width: 100%;
@@ -116,11 +100,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
 .all .main .open #prva {
   display: none;
 }
-
 @media screen and (max-width: 900px) {
   .all .main .open #prva {
     display: block;
@@ -130,18 +112,15 @@
   width: 30px;
   height: 30px;
 }
-
 .all .main .open input {
   width: 30%;
   box-shadow: -1px -1px 5px 0px rgba(109, 103, 103, 0.75);
 }
-
 .all .main .open .korisnik {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .all .main .open .korisnik .marko {
   display: flex;
   flex-direction: column;
@@ -150,7 +129,6 @@
   padding-right: 10px;
   font-family: "Roboto", sans-serif;
 }
-
 @media screen and (max-width: 900px) {
   .all .main .open .korisnik .marko {
     display: none;
@@ -159,17 +137,14 @@
 .all .main .open .korisnik #prva {
   display: none;
 }
-
 .all .main .open .korisnik img {
   height: 30px;
   width: 30px;
 }
-
 .all .main .velika {
   border: 1px solid #016393;
   border-radius: 12px;
 }
-
 .all .main .velika .ikona {
   display: flex;
   border-bottom: 1px solid #016393;
@@ -177,7 +152,6 @@
   padding: 5px;
   transition: transform 2000ms ease-out 8ms;
 }
-
 @media screen and (max-width: 900px) {
   .all .main .velika .ikona {
     justify-content: space-evenly;
@@ -193,17 +167,14 @@
   height: 30px;
   width: 30px;
 }
-
 .all .main .velika .ikona img #prva {
   display: none;
 }
-
 .all .main .velika .ikona h2 {
   padding-right: 10px;
   color: #679186;
   font-size: 12px;
 }
-
 @media screen and (max-width: 900px) {
   .all .main .velika .ikona h2 {
     display: none;
@@ -214,11 +185,9 @@
   flex-direction: column;
   transition: 10s transform ease;
 }
-
 .all .main .velika .okvir .content:hover {
   transform: scale(0.7);
 }
-
 .all .main .velika .okvir .content {
   margin: 10px;
   background-color: #264e70;
@@ -230,16 +199,13 @@
   justify-content: space-between;
   color: #fff;
 }
-
 .all .main .velika .okvir .content .sve {
   display: flex;
   justify-content: space-between;
 }
-
 .all .main .velika .okvir .content .sve .greska {
   display: flex;
 }
-
 .all .main .velika .okvir .content .sve .greska .text {
   display: block;
   display: flex;
@@ -248,11 +214,8 @@
   background-color: #016393;
   margin-right: 10px;
 }
-
 .all .main .velika .okvir .content .sve .greska .text p {
   color: #ffebd3;
 }
-
-/*# sourceMappingURL=parcijalni.css.map */
 
 /*# sourceMappingURL=parcijalni.css.map */

@@ -9,7 +9,7 @@
 .all {
   display: flex;
   flex-wrap: wrap;
-  background-image: url("images/background.jpg");
+  background-image: url("images/background.png");
   background-size: cover;
 }
 
@@ -151,11 +151,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-@media screen and (max-width: 900px) {
-  .all .main .open .korisnik .marko {
-    display: none;
-  }
-}
 .all .main .open .korisnik #prva {
   display: none;
 }
@@ -175,19 +170,8 @@
   border-bottom: 1px solid #016393;
   align-items: center;
   padding: 5px;
-  transition: transform 2000ms ease-out 8ms;
 }
 
-@media screen and (max-width: 900px) {
-  .all .main .velika .ikona {
-    justify-content: space-evenly;
-  }
-}
-@media screen and (max-width: 900px) {
-  .all .main .velika .ikona img:hover {
-    transform: rotate(360deg) translate(20px, 2px);
-  }
-}
 .all .main .velika .ikona img {
   padding-right: 10px;
   height: 30px;
@@ -204,11 +188,6 @@
   font-size: 12px;
 }
 
-@media screen and (max-width: 900px) {
-  .all .main .velika .ikona h2 {
-    display: none;
-  }
-}
 .all .main .velika .okvir {
   display: flex;
   flex-direction: column;
@@ -246,13 +225,13 @@
   justify-content: space-between;
   border-radius: 50%;
   background-color: #016393;
-  margin-right: 10px;
 }
 
 .all .main .velika .okvir .content .sve .greska .text p {
   color: #ffebd3;
 }
 
+/*# sourceMappingURL=parcijalni.css.map */
 /*# sourceMappingURL=parcijalni.css.map */
 
 /*# sourceMappingURL=parcijalni.css.map */
